@@ -259,6 +259,7 @@ button{
     width: 1128px;
     height: 420px;
     column-count: 3;
+       
 }
 
 .header-card{
@@ -268,6 +269,7 @@ button{
         line-height: 120%;
         letter-spacing: 0.02em;
         color: #2e2f42;
+  
 }
 
 .info-card{
@@ -277,6 +279,7 @@ button{
     line-height: 150%;
     letter-spacing: 0.02em;
     color: #434455;
+    
 }
 /*footer*/
 .footer {
