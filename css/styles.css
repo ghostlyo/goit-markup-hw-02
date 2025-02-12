@@ -71,7 +71,11 @@ button{
     color: #404bbf;
 }
 
-.adress-links .link {
+.address{
+    font-style: normal;
+}
+
+.link {
     font-weight: 400;
     font-size: 16px;
     line-height: 150%;
@@ -79,7 +83,7 @@ button{
     color: #434455;
 }
 
-.adress-links .link:hover{
+.link:hover{
     color: #404bbf;
 }
 /*EndHeader*/
@@ -106,7 +110,7 @@ button{
     width: 169px;
     height: 56px;
     box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
-    background: #404bbf;
+    background: #4D5AE5;
     cursor: pointer;
 }
 
