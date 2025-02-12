@@ -89,7 +89,7 @@ button{
 /*EndHeader*/
 
 /*Section 1*/
- .hero{
+.hero{
     width: 1440px;
     height: 600px;
     background: #2e2f42;
@@ -105,6 +105,10 @@ button{
 }
 
 .button-head-hero{
+    font-weight: 500;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+    color: #ffffff;
     border-radius: 4px;
     padding: 16px 32px;
     width: 169px;
@@ -112,20 +116,18 @@ button{
     box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
     background: #4D5AE5;
     cursor: pointer;
+    text-align: center;
 }
 
-.button-head-hero:focus, .button-head-hero:active {
+.button-head-hero:focus, .button-head-hero:hover, .button-head-hero:active {
     box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
-    background: #404bbf;
+    background-color: #404bbf;
 }
 
 .button-text{
-    font-family: "Roboto", sans-serif;
-    font-weight: 500;
-    font-size: 16px;
-    line-height: 150%;
-    letter-spacing: 0.04em;
-    color: #fff;
+    
+    
+    
    }
 
 
@@ -179,6 +181,7 @@ button{
     font-weight: 700;
     font-size: 36px;
     line-height: 111%;
+    text-transform: capitalize;
     letter-spacing: 0.02em;
     text-align: center;
     color: #2e2f42;
@@ -251,12 +254,14 @@ button{
     width: 360px;
     height: 420px;
     background: #fff;
+    
 }
 
 .photo-portfolio {
     width: 360px;
     height: 300px;
     background: url("path_to_image");
+    
 }
 
 .row-two {
@@ -322,6 +327,13 @@ button{
     color: #f4f4fd;
 }
 
-
+.content{
+    border-bottom: 1px solid #e7e9fc;
+    border-left: 1px solid #e7e9fc;
+    border-right: 1px solid #e7e9fc;
+    padding: 32px 16px;
+    width: 360px;
+    height: 120px;
+}
 
 
