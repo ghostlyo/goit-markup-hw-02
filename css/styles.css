@@ -79,8 +79,7 @@ button{
 
 /*Section 1*/
 .hero{
-    width: 1440px;
-     height: 600px;
+   
     background: #2e2f42;
  }
 .head-hero{
@@ -117,7 +116,7 @@ button{
 }
 .list-section-one {
     width: 1128px;
-    weight: 104px;
+    /*weight: 104px;*/
     column-count: 4; 
 }
 
@@ -144,8 +143,8 @@ button{
 }
 /*EndSection 1*/
 .ourteam {
-    width: 1440px;
-    height: 732px;
+   /* width: 1440px;
+    height: 732px; */
     background: #f4f4fd;
 }
 
@@ -297,7 +296,7 @@ button{
     color: #f4f4fd;
 }
  /*Endfooter*/
- 
+
 .content{
     border-bottom: 1px solid #e7e9fc;
     border-left: 1px solid #e7e9fc;
