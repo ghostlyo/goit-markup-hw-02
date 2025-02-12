@@ -17,8 +17,7 @@ button{
  body{
     font-family: "Roboto", sans-serif;
     background-color: #fff;
-    color:#434455;
-    
+    color:#434455; 
  }
 
 .logo-style{
@@ -28,8 +27,7 @@ button{
     line-height: 117%;
     letter-spacing: 0.03em;
     text-transform: uppercase;
-    color: #2e2f42;
-    
+    color: #2e2f42;  
 }
 
 .logo{
@@ -82,7 +80,7 @@ button{
 /*Section 1*/
 .hero{
     width: 1440px;
-    height: 600px;
+     height: 600px;
     background: #2e2f42;
  }
 .head-hero{
@@ -101,26 +99,18 @@ button{
     letter-spacing: 0.04em;
     color: #ffffff;
     border-radius: 4px;
-    padding: 16px 32px;
-    width: 169px;
-    height: 56px;
-    box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
     background: #4D5AE5;
     cursor: pointer;
     text-align: center;
 }
 
-.button-head-hero:focus, .button-head-hero:hover, .button-head-hero:active {
-    box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
+.button-head-hero:focus, .button-head-hero:hover, .button-head-hero:active { 
     background-color: #404bbf;
 }
 
 .button-text{
-    
-    
-    
-   }
 
+}
 
 .advantage{
 
@@ -150,12 +140,9 @@ button{
     line-height: 150%;
     letter-spacing: 0.02em;
     color: #434455;
-    width: 264px;
-    height: 104px;
+    
 }
 /*EndSection 1*/
-
-
 .ourteam {
     width: 1440px;
     height: 732px;
@@ -183,9 +170,7 @@ button{
     padding: 0px 0px 32px 0px;
     width: 264px;
     height: 380px;
-    
     background: #fff;
-
 }
 
 .photo-team-card {
@@ -244,8 +229,7 @@ button{
 .pj-card {
     width: 360px;
     height: 420px;
-    background: #fff;
-    
+    background: #fff; 
 }
 
 .photo-portfolio {
@@ -261,12 +245,11 @@ button{
 
 .header-card{
     font-family: "Roboto", sans-serif;
-        font-weight: 500;
-        font-size: 20px;
-        line-height: 120%;
-        letter-spacing: 0.02em;
-        color: #2e2f42;
-  
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 120%;
+    letter-spacing: 0.02em;
+    color: #2e2f42;
 }
 
 .info-card{
@@ -275,15 +258,14 @@ button{
     font-size: 16px;
     line-height: 150%;
     letter-spacing: 0.02em;
-    color: #434455;
-    
+    color: #434455;   
 }
+
 /*footer*/
 .footer {
     width: 1440px;
     height: 312px;
-    background: #2e2f42;
-    
+    background: #2e2f42;   
 }
 
 .footer-link {
@@ -314,7 +296,8 @@ button{
     letter-spacing: 0.02em;
     color: #f4f4fd;
 }
-
+ /*Endfooter*/
+ 
 .content{
     border-bottom: 1px solid #e7e9fc;
     border-left: 1px solid #e7e9fc;
